@@ -11,14 +11,17 @@
 ## FIR Filter 
 <img width="419" alt="image" src="https://github.com/Priyanshu-1012/FIR-on-FPGA/assets/39450902/77c25208-522a-485e-8314-c862ebf9adeb">
 
-<img width="419" alt="image" src="https://github.com/Priyanshu-1012/FIR-on-FPGA/assets/39450902/40a1e28b-b861-45d6-b0d8-91525176aa83">
+Its non causal...<br>
+Now if we shift and truncate this impulse reponse...<br>
+<img width="419" alt="image" src="https://github.com/Priyanshu-1012/FIR-on-FPGA/assets/39450902/7f5da366-ea97-4049-a19c-825bee76ceb7">
 
-$g_k   : real filter impulse response    $  
-$h_k   : shifted ideal filter response    $  
-$w_k   : window function  $
+
+$g_k\   :\ real\ filter\ impulse\ response\    $  
+$h_k\   : shifted\ ideal\ filter\ response\    $  
+$w_k\   : window\ function\  $
 
 $$
-g_k = h_k \cdot w_k
+g_k\ =\ h_k \cdot w_k
 $$
 
 
